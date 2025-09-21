@@ -6,12 +6,12 @@ font-family: "poppins", sans-serif;
 }
 
 body{
-background-color: //paste the color from palette;
-background: linear-gradient(to right, //color-palette, //color-palette);
+background-color: /*paste the color from palette*/;
+background: linear-gradient(to right, /*color-palette, //color-palette)*/;
 }
 
 .container{
-background: /*paste the color from palette*/;
+/*background: /*paste the color from palette;*/
 width: 450px;
 padding:1.5rem;
 margin: 50px auto;

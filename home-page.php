@@ -11,6 +11,6 @@ include("connect.php");
 <title>Home Page</title>
 </head>
 <body>
- 
+ <h1>Hello World!</h1>
 </body>
 </html>
