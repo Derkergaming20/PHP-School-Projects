@@ -1,9 +1,9 @@
 <?php 
-	//the host can be replace when using SQL
+	//the db can be replace when using SQL
 	$host = "localhost";
 	$user = "root";
 	$pass = "";
-	$db = "login";
+	$db = "citemis-db";
 	$connect = new mysqli($host, $user, $pass, $db);
 
 	if($connect -> connect_error){

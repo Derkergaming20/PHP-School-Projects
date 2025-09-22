@@ -10,7 +10,7 @@
 		$password = md5($password);
 
 			$checkEmail = "SELECT * From users where email = '$email'";
-			$result = $connect -> query($checkemail);
+			$result = $connect -> query($checkEmail);
 				if($result -> num_rows > 0){
 					echo "Email Address Already Exists!";
 				} else {
@@ -36,7 +36,7 @@
 				session_start();
 				$row = $result -> fetch_assoc();
 				$_SESSION['email'] = $row['email'];
-				header("Location: homepage.php");
+				header("Location: home-page.php");
 				exit();
 			} else {
 				echo "Not Found, Incorrect Email or Password";
